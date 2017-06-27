@@ -5,12 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet"> 
 <link rel="stylesheet" href="./style.css">
+<script src='./script.js'></script>
 
 <body>
 
     <header>
-        <button>info</button>
-        <button>contact</button>
+        <button id='infoBtn'>info</button>
+        <button id="contactBtn">contact</button>
     </header>
     
     <section>
@@ -18,6 +19,27 @@
             <h1>d59<span>.pl</span></h1>
             <p>this domain is for sale</p>
         </div>
+    </section>
+
+    <!-- info Modal -->
+    <section id="infoModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>info modal</h2>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the info modal Body</p>
+                <p>Some other text...</p>
+                <p>And some more text inside info modal box</p>
+            </div>
+            <div class="modal-footer">
+                <h3>info modal Footer</h3>
+            </div>
+        </div>
+
     </section>
 
     <!-- contact modal -->
